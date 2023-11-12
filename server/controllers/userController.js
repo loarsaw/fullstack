@@ -1,3 +1,5 @@
+import fetch from "node-fetch"
+
 export const getUsers = async (req, res) => {
     const response = await fetch(`https://api.github.com/users/github`);
     const resData = await response.json()
