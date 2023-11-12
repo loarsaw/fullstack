@@ -1,0 +1,14 @@
+{
+	"Basic_Server": {
+		"prefix": "new_server",
+		"body": [
+		"import express from 'express'";
+		"const app = express()"
+		"const PORT = process.env.PORT || 8080;"
+		"app.listen(PORT, () => {"
+			"console.log(`Server listening on port 8080`);"
+		"});"
+		],
+		"description": "Basic First Server"
+	}
+}
