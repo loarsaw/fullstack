@@ -1,6 +1,6 @@
 {
 	"Basic_Server": {
-		"prefix": "new_server",
+		"prefix": "v1",
 		"body": [
 		"import express from 'express'";
 		"const app = express()"
